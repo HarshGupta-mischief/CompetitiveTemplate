@@ -7,7 +7,7 @@ using namespace std;
 #define TC(t)               int t;cin>>t;while(t--)
 #define pb                  push_back
 #define Input(arr,n)        vector<int> arr(n);loop0(i,n){cin>>arr[i];}
-#define Output(arr,s,e)     loop(i,s,n){cout<<arr[i]<<" ";}
+#define Output(arr,s,e)     loop(i,s,e){cout<<arr[i]<<" ";}
 #define ff                  first
 #define ss                  second
 #define mp                  make_pair
