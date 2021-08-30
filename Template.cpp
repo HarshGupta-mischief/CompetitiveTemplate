@@ -6,7 +6,7 @@ using namespace std;
 #define loop(i,a,b)         for(int i=a;i<b;i++)
 #define TC(t)               int t;cin>>t;while(t--)
 #define pb                  push_back
-#define Input(arr,n)        vector<int> arr(n);loop0(i,n){cin>>arr[i];}
+#define Input(arr,s,e)      vector<int> arr(e);loop(i,s,e){cin>>arr[i];}
 #define Output(arr,s,e)     loop(i,s,e){cout<<arr[i]<<" ";}
 #define ff                  first
 #define ss                  second
@@ -18,4 +18,3 @@ signed main()
 {
     WorldShallKnowPain
 }
-
