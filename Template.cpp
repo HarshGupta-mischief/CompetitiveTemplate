@@ -14,6 +14,10 @@ using namespace std;
 #define full(a)             a.begin(),a.end()
 #define WorldShallKnowPain  ios_base::sync_with_stdio(false);cin.tie(NULL);
 
+const int inf=1e18;
+const int mod=1e9+7;
+const int Len=2e5+10;
+
 signed main()
 {
     WorldShallKnowPain
