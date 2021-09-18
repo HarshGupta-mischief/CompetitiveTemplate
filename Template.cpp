@@ -18,6 +18,12 @@ const int inf=1e18;
 const int mod=1e9+7;
 const int Len=2e5+10;
 
+bool compare(pair<int,int> a,pair<int,int> b)
+{
+    if(a.ss==b.ss){return a.ff>b.ff;}
+    else{return a.ss<b.ss;}
+}
+
 signed main()
 {
     WorldShallKnowPain
